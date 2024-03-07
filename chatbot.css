@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    .navbar {
+        background: linear-gradient(180deg, rgba(254, 254, 255, 1) 0%, rgba(240, 241, 241, 1) 65%, rgba(222, 223, 223, 1) 85%);
+    }
+
+    div.chatbox {
+        .wrap-container {
+            max-height: 100%;
+
+            .header {
+                background: linear-gradient(180deg, rgba(67, 119, 253, 1) 0%, rgba(35, 92, 244, 1) 35%);
+            }
+    
+            #chat-box {
+                margin-bottom: 10px;
+                overflow-y: auto;
+                max-height: 600px;
+
+                .container-content {
+                    .content {
+                        background: #eaf3ff;
+                    }
+                }
+            }
+    
+            .reply {
+                textarea {
+                    height: 125px;
+                }
+    
+                button {
+                    width: 100px;
+                    font-size: 12px;
+                    background: linear-gradient(180deg, rgba(67, 119, 253, 1) 0%, rgba(35, 92, 244, 1) 35%);
+
+                    &:disabled {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .footer {
+        color: #6d7788;
+        background: #031c3e;
+    }
+}
+
